@@ -3,17 +3,17 @@
 class Yeehaw < Formula
   desc "Terminal ranch management for projects, servers, and Claude sessions"
   homepage "https://yeehaw.cool"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Colmbus72/yeehaw/releases/download/v#{version}/yeehaw-aarch64-apple-darwin.tar.xz"
-      sha256 "b50257dd89aa2f7436e4abe2701ad845ec72a484b30010d62eb7d2838f488a91"
+      sha256 "8b9ab3583077d56e40ad85e922343c4856f11f2482b56090d801768856425415"
     end
     on_intel do
       url "https://github.com/Colmbus72/yeehaw/releases/download/v#{version}/yeehaw-x86_64-apple-darwin.tar.xz"
-      sha256 "7d8220204bff3201946cf76d4212de729498c97e81fe85a76e67575c1fe0f604"
+      sha256 "1c8af588234f0ef76e0e779cb99c3849912c2675800acb8051293aa578613de0"
     end
   end
 
